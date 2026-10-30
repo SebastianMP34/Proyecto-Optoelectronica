@@ -8,7 +8,7 @@
 const char* ap_ssid = "ESP32-David";
 const char* ap_pass = "12345678";   // mínimo 8 caracteres
 // ------------------------------
-
+// miau miau miau
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 32
 #define OLED_ADDR 0x3C
