@@ -43,17 +43,17 @@ void setup() {
 
 void loop() {
   // 90 -> 180 -> 90
-  mover(90, 155);
+  mover(100, 150);
   Serial.println("180");
   delay(500);
-  mover(155, 90);
+  mover(150, 100);
   Serial.println("90");
   delay(500);
 
   // 90 -> 0 -> 90
-  mover(90, 45); 
+  mover(100, 50); 
   delay(500);
-  mover(45, 90);
+  mover(50, 100);
   Serial.println("90");
   delay(500);
 }
